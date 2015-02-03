@@ -1,0 +1,95 @@
+		body {
+			font-family: Times, Georgia, Serif;
+    		font-weight: normal;
+    		font-style: bold;
+			font-weight: 400;
+			-webkit-font-smoothing: antialiased;
+			letter-spacing: 0px;
+			color: black;
+    		background-color: #CCFFFF;
+			}
+		
+		h1	{
+			font-family: 'VT323', Helvetica, Sans-Serif;
+			padding: 5px 60px 5px 60px;
+			font-size: 25px;
+			color: #996600;
+			background: #00CC66;
+			border: outset;
+			border-width: 20px;
+			border: 200px outset #996600;
+			margin: 50px 50px;
+			text-align: center;
+			letter-spacing: 0px;
+			}
+
+		h2{
+			font-size: 40px;
+			font-style: italic;
+		}
+		
+		.container {
+			width: 600px;
+			margin: 0 auto 0 auto;
+			background: #CCFFFF;
+			color: #FF00CC;
+		}
+
+
+		#Opportunity {
+		}
+
+		.table-of-contents{
+
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		a:visited{
+			color: #33CCFF;
+		}
+
+		.summary{
+			font-style: italic;
+			line-height: 105%;
+		}
+		
+		#tips {
+		}
+		#tips h2 {
+		}
+
+		#tips li {
+			color: #FF00CC;
+			list-style-type: none;
+			font-size: 15px;
+			line-height: 105%;
+			font-style: italic;
+		}
+	
+		img{
+			max-width: 600px;
+			display: block;
+			margin-bottom: 1em;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		ol {
+			padding: 0px;
+			margin-left: auto;
+			margin-right: auto;
+			list-style-position: inside;
+			list-style-type: none;
+			line-height: 110%;
+			font-size: 24px;
+		}
+
+		li {
+			font-size: 
+		}
+
+
+	

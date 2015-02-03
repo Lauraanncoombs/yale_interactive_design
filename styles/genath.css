@@ -1,0 +1,12 @@
+		@font-face {
+    font-family: 'genathlight';
+    src: url('fonts/genath-light-webfont.eot');
+    src: url('fonts/genath-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/genath-light-webfont.woff2') format('woff2'),
+         url('fonts/genath-light-webfont.woff') format('woff'),
+         url('fonts/genath-light-webfont.ttf') format('truetype'),
+         url('fonts/genath-light-webfont.svg#genathlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
