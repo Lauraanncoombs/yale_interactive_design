@@ -4,6 +4,7 @@
 /* STYLE ONE */
 
 body.one {
+	text-transform: lowercase;
 	background-color: rgb(253, 247, 49);
 	letter-spacing: 2px;
 	margin: 1em;
@@ -13,14 +14,11 @@ body.one {
 	color: rgb(0, 0, 0);
 	background: rgb(253,247,49);
 	font-weight: 600;
-	-webkit-text-stroke: 0.75px;
-	-moz-text-stroke: 1.25px;
-	text-stroke: 0.75px;
 }
 
-body.one h1 {
+body.one h2 {
+	font-weight: 600;
 	text-align: center;
-	font-style: bold;
 	color: rgb(0, 0, 0);
 	font-family: sans-serif;
 	font-size: 26px;
@@ -31,14 +29,6 @@ body.one h1 {
 	letter-spacing: 2px;
 	text-rendering: optimizelegibility;
 	display: block;
-	-webkit-margin-before: 0.83em;
-	-webkit-margin-after: 0.83em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-}
-
-body.one h3 {
-	text-align: center;
 }
 
 body.one p {
