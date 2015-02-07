@@ -20,7 +20,6 @@ body.one {
 
 body.one h1 {
 	text-align: center;
-	font-weight: 600;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	font-family: sans-serif;
@@ -31,7 +30,6 @@ body.one h1 {
 	padding: 0;
 	letter-spacing: 2px;
 	text-rendering: optimizelegibility;
-	font-weight: normal;
 	display: block;
 	-webkit-margin-before: 0.83em;
 	-webkit-margin-after: 0.83em;
