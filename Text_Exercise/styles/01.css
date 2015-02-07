@@ -1,3 +1,24 @@
+/* @override
+  http://jonaslund.biz/blog/wp-content/themes/blogjonas2/style.css */
+
+/******************************************************************
+Site Name: The Artist’s Institute 2014
+Author: Jonas Lund
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+/*! normalize.css 2012-07-07T09:50 UTC - http://github.com/necolas/normalize.css */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE6/7/8/9 & FF3.
+ */
 article,
 aside,
 details,

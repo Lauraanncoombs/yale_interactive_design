@@ -1,0 +1,18 @@
+
+
+
+/* STYLE ONE */
+
+body.one {
+	background-color: rgb(253, 247, 49);
+}
+
+body.one h1 {
+	font-size: 26px;
+	line-height: 1.2;
+	margin: 0;
+	margin-bottom: 1em;
+	padding: 0;
+	letter-spacing: 2px;
+	
+}
