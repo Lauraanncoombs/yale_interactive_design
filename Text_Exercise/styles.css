@@ -38,6 +38,10 @@ body.one h1 {
 	-webkit-margin-end: 0px;
 }
 
+body.one h3 {
+	text-align: center;
+}
+
 body.one p {
 	margin-bottom: 1em;
 	text-align: justify;
