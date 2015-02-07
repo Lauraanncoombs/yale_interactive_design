@@ -12,7 +12,7 @@ body.one {
 	line-height: 1.2;
 	color: rgb(0, 0, 0);
 	background: rgb(253,247,49);
-	/* font-weight: 600; */
+	font-weight: 600;
 	-webkit-text-stroke: 0.75px;
 	-moz-text-stroke: 1.25px;
 	text-stroke: 0.75px;
