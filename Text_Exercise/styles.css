@@ -1,8 +1,19 @@
+/* Font for Style 02 */
+@font-face{ 
+    font-family: 'gt_sectra_fine_regularregular';
+    src: url('Sectra_Web/gt-sectra-fine-regular-webfont.eot');
+    src: url('Sectra_Web/gt-sectra-fine-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Sectra_Web/gt-sectra-fine-regular-webfont.woff2') format('woff2'),
+         url('Sectra_Web/gt-sectra-fine-regular-webfont.woff') format('woff'),
+         url('Sectra_Web/gt-sectra-fine-regular-webfont.ttf') format('truetype'),
+         url('Sectra_Web/gt-sectra-fine-regular-webfont.svg#gt_sectra_fine_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
 /* STYLE ONE */
-
 body.one {
 	text-transform: lowercase;
 	background-color: rgb(253, 247, 49);
@@ -40,4 +51,68 @@ body.one p {
 	-webkit-margin-after: 1em;
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
+}
+
+
+
+/* STYLE TWO */
+body.two {
+	width: 790px;
+	font-family: "gt_sectra_fine_regularregular", Georgia, serif;
+	font-size: 34px;
+	line-height: 48px;
+	color: #333333;
+	text-align: left;
+	background: white;
+	margin: 0 auto 0 auto;
+	padding: 0px;
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+/* Daphne ~ Laurel */
+body.two h2 {
+	font-family: Courier, monospace;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: underline;
+	float: left;
+	/* padding: 3 0;
+	border-bottom: 1px solid #000; */
+	padding-bottom: 75px;
+}
+/* The Metamorphoses */
+body.two h3 {
+	text-align: right;
+	font-family: Courier, monospace;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	padding-top: 15px;
+	padding-bottom: 75px;
+	padding-right: 100px;
+}
+
+body.two span {
+	font-size: 20px;
+}
+
+
+
+/* STYLE THREE */
+
+body.three {
+	
+}
+
+body.three h2 {
+	
+}
+
+body.three p {
+	
 }
