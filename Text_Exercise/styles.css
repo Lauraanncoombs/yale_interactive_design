@@ -654,8 +654,6 @@ body.twelve em{
 }
 
 
-
-
 /* STYLE THIRTEEN */
 
 body.thirteen {
@@ -689,10 +687,75 @@ body.thirteen span{
 }
 
 
-
-
-
 /* STYLE FOURTEEN */
+
+body.fourteen {
+	font-family: "Times New Roman", serif;
+	-webkit-font-smoothing: antialiased;
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f3f3f3;
+	color: #26344d;
+	border-color: #26344d;
+	font-size: 19px;
+	line-height: 22px;
+	margin-left: 40px;
+	width: 540px;
+	margin-top: 25px;
+}
+
+body.fourteen h1 {
+	font-family: "Times New Roman", serif;
+	color: #26344d;
+	font-size: 33px;
+	font-weight: bold;
+	border-bottom: 1px solid;
+	line-height: 32px;
+	display: inline-block;
+	border-color: #9aa3b4;
+	background-color: #f3f3f3;
+	cursor: pointer;
+}
+
+body.fourteen h2 {
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 22px;
+	color: #26344d;
+	font-family: "Times New Roman", serif;
+	border-top: 1px solid;
+	padding: 5px 0 20px 0;
+}
+
+body.fourteen p{
+	border-top: 1px solid;
+	padding: 5px 0 4px 0;
+	cursor: pointer;
+	color: #00A7E5;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 22px;
+	font-family: "Times New Roman", serif;
+}
+
+body.fourteen span{
+	font-size: 11px;
+	line-height: 10px;
+	font-family: Arial, sans-serif;
+	color: #26344d;
+}
+
+
+
+
+
+
+
+
+/* STYLE FIFTEEN */
 
 body.fourteen {
 }
