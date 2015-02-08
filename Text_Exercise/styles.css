@@ -429,8 +429,12 @@ body.nine h1 {
 	left: 10px;
 	color: #000;
 	margin-left: 20px;
-	margin-bottom: 196px;
+	margin-bottom: 350px;
 	margin-top: 0;
+}
+
+body.nine h1 div {
+	font-family: 'leitura_newsitalic_4';
 }
 
 body.nine h2 {
@@ -453,4 +457,22 @@ body.nine p {
 body.nine p span {
 	font-weight: 900;
 	font-family: 'leitura_newsitalic_4', Times, serif;
+}
+
+
+/* STYLE TEN */
+
+body.ten {
+}
+
+body.ten h1 {
+}
+
+body.ten h2 {
+}
+
+body.ten p {
+}
+
+body.ten span{
 }
