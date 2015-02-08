@@ -105,14 +105,50 @@ body.two span {
 
 /* STYLE THREE */
 
+body.three div{
+	width: 324px;
+	margin: auto;
+}
+
 body.three {
-	
+	width: 644px;
+	background-color: #000000;
+	background-repeat: repeat;
+	margin: auto;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	background: #ffffff;
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/d/d6/Robert_Lef%C3%A8vre_-_Pauline_as_Daphne_Fleeing_from_Apollo_-_WGA12632.jpg);
 }
 
 body.three h2 {
-	
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11px; 
+    line-height: 14px; 
+    color: #ff6e00;">
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
 }
 
 body.three p {
-	
+	background: white;
+	padding: 12px;
+}
+
+
+
+/* STYLE FOUR */
+
+body.three div{
+}
+
+body.three {
+}
+
+body.three h2 {
+}
+
+body.three p {
 }
