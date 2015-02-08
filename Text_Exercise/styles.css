@@ -463,16 +463,60 @@ body.nine p span {
 /* STYLE TEN */
 
 body.ten {
+	font-family: "Union", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #000;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: bold;
 }
 
 body.ten h1 {
-}
-
-body.ten h2 {
+	font-size: 1.6rem;
+	line-height: 1.15;
+	margin: 0;
 }
 
 body.ten p {
+	width: 176px;
+	float: left;
+	position: relative;
+	padding: 15px;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-body.ten span{
+body.ten div{
+	float: left;
+	width: 293px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+body.ten .menu{
+	font-size: 1.1rem;
+	float: left;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+/* STYLE ELEVEN */
+
+body.eleven {
+}
+
+body.eleven h1 {
+}
+
+body.eleven h2 {
+}
+
+body.eleven p {
+}
+
+body.eleven span{
 }
