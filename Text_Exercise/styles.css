@@ -46,8 +46,20 @@
          url('Franklin/urw_-_franklingothicurwlig-webfont.svg#franklingothicurwligregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@font-face {
+    font-family: 'futuraef-mediumregular';
+    src: url('Futura/elsnerflake_-_futuraef-medium-webfont.eot');
+    src: url('Futura/elsnerflake_-_futuraef-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Futura/elsnerflake_-_futuraef-medium-webfont.woff2') format('woff2'),
+         url('Futura/elsnerflake_-_futuraef-medium-webfont.woff') format('woff'),
+         url('Futura/elsnerflake_-_futuraef-medium-webfont.ttf') format('truetype'),
+         url('Futura/elsnerflake_-_futuraef-medium-webfont.svg#futuraef-mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* STYLE ONE */
 body.one {
@@ -301,29 +313,64 @@ body.six span{
 /* STYLE SEVEN */
 
 body.seven {
+	color: #FFF;
+	font-family: 'MariaProRegular', serif;
+	background-color: black;
+	margin: 36px 0 0 36px;
+	text-align: left;
+	font-size: 40px;
+	line-height: 1.2em;
+	font-weight: normal;
+	margin-bottom: 0px;
+	padding: 0px;
 }
-
-body.seven h1 {
-}
-
-body.seven h2 {
-}
-
-body.seven p {
-}
-
 
 
 /* STYLE EIGHT */
 
 body.eight {
-}
-
-body.eight h1 {
+	font-family: "futuraef-mediumregular", sans-serif;
+	font-size: 1em;
+	line-height: 1.4;
+	width: 816px;
+	margin: auto;
 }
 
 body.eight h2 {
+	text-align: center;
+	font-size: 54px;
+	line-height: normal;
+	
+}
+
+body.eight h3 {
+	font-size: 21px;
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 28px;
 }
 
 body.eight p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+body.eight span{
+	text-decoration: underline;
+}
+
+
+/* STYLE NINE */
+
+body.nine {
+}
+
+body.nine h1 {
+}
+
+body.nine h2 {
+}
+
+body.nine p {
 }
