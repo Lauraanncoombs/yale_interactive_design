@@ -659,18 +659,34 @@ body.twelve em{
 /* STYLE THIRTEEN */
 
 body.thirteen {
+	color: #fff;
+	background-color: #f00;
+	cursor: pointer;
 }
 
 body.thirteen h1 {
-}
-
-body.thirteen h2 {
+	font-family: Times, Times New Roman;
+	font-size: 72px;
+	line-height: 86px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 150px;
+	margin-bottom: 75px;
+	margin-right: 50px;
 }
 
 body.thirteen p{
+	margin-left: 50px;
+	font-family: Andale Mono, 'AndaleMono', Courier New, Courier, monospace;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	margin-right: 50px;
 }
 
-
+body.thirteen span{
+	text-decoration: underline;
+}
 
 
 
