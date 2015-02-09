@@ -750,21 +750,53 @@ body.fourteen span{
 
 
 
-
-
-
-
-
 /* STYLE FIFTEEN */
 
 body.fifteen {
+	background: #f7f7f7;
+	font-size: 45px;
+	line-height: 1.3em;
+	color: #000;
+	padding: 85px;
+	font-family: "youngserifregular", Times, serif;
+	height: 100%;
+	margin: 0 0 100px 0
+	width: 890px;
+
 }
 
 body.fifteen h1 {
 }
 
 body.fifteen h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 65px;
+	font-family: "youngserifregular", times new roman, serif;
+	margin-top: 0px;
+	margin-bottom: 0;
+	transform: rotate(-4deg);
 }
 
 body.fifteen p{
+	transform: rotate(-4deg);
+	font-weight: bold;
+	margin: 0px;
 }
+
+body.fifteen em{
+	font-style: normal;
+	font-size: 40px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	text-decoration: underline;
+	transform: rotate(-4deg);
+}
+
+
+
+
+
+
+
