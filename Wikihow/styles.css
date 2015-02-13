@@ -1,0 +1,104 @@
+/* STYLE HOW-TO GUIDE */
+
+h1{
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    font-family: 'UnifrakturMaguntia';
+    font-size: 35px;
+    bottom: 0;
+    right:0;
+    position: fixed;  
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: pink;
+    text-decoration: none;
+}
+
+
+.how-to-portal {
+	display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 200px;
+    background: yellow;
+
+}
+
+.overall-container{
+    height: 5000px;
+    position: relative;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    background: black;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+    height: 5000px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.party {
+    top: 0;
+    left:0;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+}
+
+
+.square {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+}
+
+
+.mountains {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    z-index: -2;
+
+}
+
+
+
+
+
