@@ -168,6 +168,7 @@ body.pages a:visited{
 
 /* STYLE ONE */
 body.one {
+    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
 	text-transform: lowercase;
 	background-color: rgb(253, 247, 49);
 	letter-spacing: 2px;
@@ -181,6 +182,7 @@ body.one {
 }
 
 body.one h2 {
+    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
 	font-weight: 600;
 	text-align: center;
 	color: rgb(0, 0, 0);
@@ -196,6 +198,7 @@ body.one h2 {
 }
 
 body.one p {
+    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
 	margin-bottom: 1em;
 	text-align: justify;
 	margin: 0 0 1em 0;
@@ -809,7 +812,6 @@ body.fifteen {
 	height: 100%;
 	margin: 0 0 100px 0
 	width: 890px;
-
 }
 
 body.fifteen h1 {
@@ -840,6 +842,171 @@ body.fifteen em{
 	text-decoration: underline;
 	transform: rotate(-4deg);
 }
+
+
+/* mashups */
+/* -------------------------------------------------------------------------------------------- */
+
+
+/* STYLE 16: 01 + 15; */
+body.sixteen {
+    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
+    text-transform: lowercase;
+    background-color: rgb(253, 247, 49);
+    letter-spacing: 2px;
+    margin: 1em;
+    font-family: sans-serif;
+    font-size: 45px;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+    background: rgb(253,247,49);
+    font-weight: 600;
+    padding: 10px;
+}
+
+body.sixteen h2 {
+    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 45px;
+    line-height: 1.2;
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0;
+    letter-spacing: 2px;
+    text-rendering: optimizelegibility;
+    display: block;
+    transform: rotate(-4deg);
+}
+
+body.sixteen p {
+    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
+    margin-bottom: 1em;
+    text-align: justify;
+    margin: 0 0 1em 0;
+    display: block;
+    transform: rotate(-4deg);
+}
+
+body.sixteen em{
+    font-style: normal;
+    text-decoration: underline;
+    transform: rotate(-4deg);
+}
+
+
+/* STYLE 17: 03 + 07; Yale Art + Other Means */
+/* 03 */
+
+body.seventeen {
+    width: 650px;
+    background-repeat: repeat;
+    margin: auto;
+    font-family: 'MariaProRegular', serif;
+    font-size: 13px;
+    line-height: 18px;
+    background: #ffffff;
+    background-image: url("Ham.png");
+}
+
+body.seventeen h2 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 11px; 
+    line-height: 14px; 
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+body.seventeen p {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: normal;
+}
+
+
+/* STYLE 18: 11 + 13; Avery Review + LinkedByAir */
+/* 11 */
+body.eighteen {
+    font-family:'Maria Pro',Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+}
+
+body.eighteen h2 {
+    font-style: normal;
+    font-weight: medium;
+    font-family:'Maria Pro',Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #003;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+body.eighteen span{
+    font-style: normal;
+    font-size: 40px;
+    color: #003;
+    padding: 20px;
+    font-family: Times, Times New Roman;
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #fff;
+    background-color: #f00;
+    cursor: pointer;
+}
+
+body.eighteen p {
+    font-style: normal;
+    font-weight: bold;
+    font-family:'Maria Pro',Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: -1px;
+    color: #003;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-top: 0;
+    max-width: 950px;
+    padding-left: 20px;
+}
+
+body.eighteen div{
+    font-style: normal;
+    font-size: 40px;
+    color: #003;
+    padding: 20px;
+    font-family: Times, Times New Roman;
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: bold;
+    margin-left: 0px;
+    color: #fff;
+    background-color: #f00;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
 
 
 
