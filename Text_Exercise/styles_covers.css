@@ -394,31 +394,11 @@ body.four .four_read a:visited{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Cover FIVE */
 
 body.five {
+    color: white;
+    background-color: black;
 	text-align: left;
 	width: 637px;
 	padding-left: 22px;
@@ -441,35 +421,48 @@ body.five h2 {
 	margin-top: 0;
 }
 
-body.five p {
-	font-family: "caslon_book_beregular",Times,Georgia,serif;
-	font-size: 20px;
-	line-height: 28px;
-	padding-right: 50px;
+body.five h1 a:link{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-weight: normal;
 }
 
-body.five p span {
-	font-family: "neutra-face-text","Helvetica Neue",Helvetica,Segoe,"Segoe UI","Segoe WP",Calibri,Arial,clean,sans-serif;
-	font-weight: bold;
-	font-size: 100px;
-	line-height: 40px;
-	margin-right: 2px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	display: block;
-	float: left;
-	padding: 3 3 3 3;
+body.five h1 a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
 }
 
-body.five div p {
-	font-family: "caslon_book_beregular",Times,Georgia,serif;
-	font-size: 16px;
-	line-height: 20px;
-	padding-right: 50px;
+body.five h1 a:active{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+body.five h1 a:visited{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
 }
 
 
-/* STYLE SIX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cover SIX */
 
 body.six {
 	font-family: "franklingothicurwligregular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
