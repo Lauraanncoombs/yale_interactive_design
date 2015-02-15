@@ -201,7 +201,7 @@ body.one .read {
     z-index: -1;*/
 }
 
-/* STYLE TWO */
+/* COVER TWO */
 body.two {
 	width: 790px;
 	font-family: "gt_sectra_fine_regularregular", Georgia, serif;
@@ -260,16 +260,7 @@ body.two a:visited{
 
 
 
-
-
-
-
-/* STYLE THREE */
-
-body.three div{
-	width: 324px;
-	margin: auto;
-}
+/* COVER THREE */
 
 body.three {
 	width: 644px;
@@ -277,26 +268,77 @@ body.three {
 	background-repeat: repeat;
 	margin: auto;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-weight: bold;
 	font-size: 13px;
 	line-height: 18px;
 	background: #ffffff;
 	background-image: url(http://upload.wikimedia.org/wikipedia/commons/d/d6/Robert_Lef%C3%A8vre_-_Pauline_as_Daphne_Fleeing_from_Apollo_-_WGA12632.jpg);
 }
 
-body.three h2 {
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 11px; 
-    line-height: 14px; 
-    color: #ff6e00;">
-    font-style: normal;
-    font-weight: normal;
-    text-align: left;
+body.three .three_icarus {
+    left: 0;
+    top: 380px;
+    position: absolute;
+    position: fixed;
+    background: white;
+    color: black;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
-body.three p {
-	background: white;
-	padding: 12px;
+body.three .three_apollo {
+    left: 400px;
+    top: 180px;
+    position: absolute;
+    position: fixed;
+    background: white;
+    color: black;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
+
+body.three .three_daphne {
+    left: 750px;
+    top: 150px;
+    position: absolute;
+    position: fixed;
+    background: white;
+    color: black;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+body.three .three_ovid {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    height: 50px;
+    width: 200px;
+    z-index: -2;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
