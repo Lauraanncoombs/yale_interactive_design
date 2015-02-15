@@ -201,11 +201,6 @@ body.one .read {
     z-index: -1;*/
 }
 
-
-
-
-
-
 /* STYLE TWO */
 body.two {
 	width: 790px;
@@ -215,42 +210,57 @@ body.two {
 	color: #333333;
 	text-align: left;
 	background: white;
-	margin: 0 auto 0 auto;
+	margin: auto;
 	padding: 0px;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
 	overflow-y: scroll;
-}
-/* Daphne ~ Laurel */
-body.two h2 {
-	font-family: Courier, monospace;
-	font-size: 16px;
-	line-height: 21px;
-	font-weight: normal;
-	font-style: normal;
-	text-decoration: underline;
-	float: left;
-	/* padding: 3 0;
-	border-bottom: 1px solid #000; */
-	padding-bottom: 75px;
-}
-/* The Metamorphoses */
-body.two h3 {
-	text-align: right;
-	font-family: Courier, monospace;
-	font-size: 16px;
-	line-height: 21px;
-	font-weight: normal;
-	font-style: normal;
-	text-decoration: none;
-	padding-top: 15px;
-	padding-bottom: 75px;
-	padding-right: 100px;
+    text-align: center;
 }
 
-body.two span {
-	font-size: 20px;
+body.two .two_title{
+    margin-top: 80px;
+    font-size: 120px;
+    line-height: 140px;
 }
+
+body.two .two_book{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+body.two .two_author {
+    font-size: 14px;
+    line-height: 18px;
+    color: #2051C9;
+}
+
+body.two a:link{
+    color: #333333;
+    text-decoration: none;
+}
+
+body.two .two_title a:hover{
+    color: #2051C9;
+    background-color: white;
+    text-decoration: none;
+}
+
+body.two a:active{
+    color: #2051C9;
+    text-decoration: none;
+}
+
+body.two a:visited{
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+
 
 
 
