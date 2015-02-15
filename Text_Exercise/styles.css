@@ -1069,63 +1069,64 @@ body.nineteen em{
     font-weight: bold;
 }
 
-/* STYLE NINE 
 
-body.nine {
-    font-size: 1em;
-    line-height: 1.4;
-    background: #00c36a;
-    font-family: 'leitura_newsroman_1';
-    width: 1031px;
-    padding: 196px 0 0 0;
-    margin: auto;
-    margin-left: 20px;
+/* STYLE 20: 7 + 13; Others Means + Linked By Air */
+/* 7 */
+body.twenty {
+    color: #FFF;
+    font-family: 'MariaProRegular', serif;
+    background-color: black;
+    margin: 0;
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
-body.nine h1 {
-    font-style: none;
-    font-family: 'leitura_newsroman_4';
-    width: 830px;
-    padding-right: 160px;
-    font-size: 91px;
-    line-height: 120px;
-    letter-spacing: 0px;
-    top: 0;
-    left: 10px;
-    color: #000;
-    margin-left: 20px;
-    margin-bottom: 350px;
-    margin-top: 0;
+body.twenty .black {
+    color: #FFF;
+    font-family: 'MariaProRegular', serif;
+    background-color: black;
+    margin: 36px 0 0 36px;
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: normal;
+    
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-body.nine h1 div {
-    font-family: 'leitura_newsitalic_4';
+body.twenty .red {
+    color: #FFF;
+    font-family: 'MariaProRegular', serif;
+    background-color: #f00;
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: normal;
+
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
 }
 
-body.nine h2 {
-    font-family: 'leitura_newsitalic_4';
-    margin-left: 20px;
-    font-size: 30px;
-    line-height: 36px;
-    margin-bottom: 0;
+body.twenty p{
+    margin: 0;
+    padding: 0;
 }
-
-body.nine p {
-    width: 300px;
-    margin-left: 20px;
-    float: left;
-    font-size: 16px;
-    line-height: 22px;
-    display: block;
-}
-
-body.nine p span {
-    font-weight: 900;
-    font-family: 'leitura_newsitalic_4', Times, serif;
-}
-*/
-
-
-
 
 
