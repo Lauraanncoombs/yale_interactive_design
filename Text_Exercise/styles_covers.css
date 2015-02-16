@@ -606,65 +606,119 @@ body.seven a:visited{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* STYLE EIGHT */
 
 body.eight {
 	font-family: "futuraef-mediumregular", sans-serif;
-	font-size: 1em;
-	line-height: 1.4;
-	width: 816px;
-	margin: auto;
 }
 
-body.eight h2 {
-	text-align: center;
-	font-size: 54px;
-	line-height: normal;
-	
+body.eight .eight_one{
+    position: fixed;
+    top: 45px;
+    left: 0px;
+    padding: 5px 20px 5px 20px;
+    font-size: 21px;
+    color: black;
+    background: white;
+    border: outset;
+    border-width: 15px;
+    border-color: #C0C0C0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0px;
 }
 
-body.eight h3 {
-	font-size: 21px;
-	text-align: center;
-	font-weight: 400;
-	font-style: normal;
-	line-height: 28px;
+body.eight .eight_two{
+    position: fixed;
+    top: 255px;
+    right: 0px;
+    padding: 5px 20px 5px 20px;
+    font-size: 21px;
+    color: black;
+    background: white;
+    border: outset;
+    border-width: 15px;
+    border-color: #C0C0C0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0px;
+    z-index: -2;
 }
 
-body.eight p {
-	padding-left: 20px;
-	padding-right: 20px;
+body.eight .eight_three{
+    position: fixed;
+    top: 400px;
+    left: 100px;
+    padding: 5px 20px 5px 20px;
+    font-size: 21px;
+    color: black;
+    background: white;
+    border: outset;
+    border-width: 15px;
+    border-color: #C0C0C0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0px;
+    z-index: -3;
+}
+
+body.eight .eight_four{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    position: fixed;
+    padding: 5px 20px 5px 20px;
+    font-size: 21px;
+    color: black;
+    background: white;
+    border: outset;
+    border-width: 15px;
+    border-color: #C0C0C0;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0px;
+    z-index: -4;
 }
 
 body.eight span{
 	text-decoration: underline;
+    color: black;
+}
+
+body.eight a:link{
+    color: black;
+    text-decoration: none;
+}
+
+body.eight a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+body.eight a:active{
+    color: black;
+    text-decoration: none;
+}
+
+body.eight a:visited{
+    color: black;
+    text-decoration: none;
 }
 
 
-/* STYLE NINE */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Cover NINE */
 
 body.nine {
 	font-size: 1em;
