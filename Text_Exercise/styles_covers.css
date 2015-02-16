@@ -464,6 +464,13 @@ body.five h1 a:visited{
 
 /* Cover SIX */
 
+
+body.six .ye{
+
+font: bold 9pt "helvetica", helvetica arial, sans;
+
+}
+
 body.six {
 	font-family: "franklingothicurwligregular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	font-size: 12px;
@@ -556,7 +563,14 @@ body.six .six_footer a:visited{
 
 
 
-/* STYLE SEVEN */
+
+
+
+
+
+
+
+/* Cover SEVEN */
 
 body.seven {
 	color: #FFF;
@@ -570,6 +584,36 @@ body.seven {
 	margin-bottom: 0px;
 	padding: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE EIGHT */
