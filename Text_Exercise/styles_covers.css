@@ -448,27 +448,11 @@ body.five h1 a:visited{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Cover SIX */
 
 
 body.six .ye{
-
 font: bold 9pt "helvetica", helvetica arial, sans;
-
 }
 
 body.six {
@@ -552,24 +536,6 @@ body.six .six_footer a:visited{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Cover SEVEN */
 
 body.seven {
@@ -585,9 +551,56 @@ body.seven {
 	padding: 0px;
 }
 
+body.seven .seven_one{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    z-index: -1;
+    border: 10px solid;
+    border-color: white;
+    padding: 15px;
+    font-size: 35px;
+}
+
+body.seven .seven_two{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    z-index: 2;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    border: 10px solid;
+    border-color: white;
+    padding: 15px;
+}
+
+body.seven span{
+    color: white;
+    text-decoration: none;
+}
 
 
+body.seven a:link{
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
 
+body.seven a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+body.seven a:active{
+    color: black;
+    text-decoration: none;
+}
+
+body.seven a:visited{
+    color: black;
+    text-decoration: none;
+}
 
 
 
