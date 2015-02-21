@@ -482,6 +482,7 @@ body.six h1 {
     color: black;
     z-index: -1;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 body.six .six_footer{
@@ -509,6 +510,18 @@ body.six .six_author{
     padding: 10px;
     z-index: 3;
     font-weight: bold;
+}
+
+body.six .six_copyright{
+    background-color: black;
+    margin-top: 0;
+    z-index: 5;
+    padding-bottom: 80px;
+    width: 470px;
+    text-align: center;
+    display: block;
+    color: white;
+
 }
 
 body.six .six_footer a:link{
@@ -707,17 +720,6 @@ body.eight a:visited{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* Cover NINE */
 
 body.nine {
@@ -748,31 +750,64 @@ body.nine h1 {
 	margin-top: 0;
 }
 
-body.nine h1 div {
-	font-family: 'leitura_newsitalic_4';
+
+body.nine .nine_two {
+    width: 800px;
+    margin: auto;
+    background-color: #00c36a;
+    position: fixed;
+    top: 250px;
+    z-index: 5;
+    text-align: left;
 }
 
-body.nine h2 {
-	font-family: 'leitura_newsitalic_4';
-	margin-left: 20px;
-	font-size: 30px;
-	line-height: 36px;
-	margin-bottom: 0;
+body.nine .nine_three {
+    width: 800px;
+    margin: auto;
+    background-color: #00c36a;
+    position: fixed;
+    top: 370px;
+    z-index: 5;
+    text-align: left;
 }
 
-body.nine p {
-	width: 300px;
-	margin-left: 20px;
-	float: left;
-	font-size: 16px;
-	line-height: 22px;
-	display: block;
+body.nine .nine_four {
+    width: 800px;
+    margin: auto;
+    background-color: #00c36a;
+    position: fixed;
+    top: 490px;
+    z-index: 5;
+    text-align: left;
 }
 
-body.nine p span {
-	font-weight: 900;
-	font-family: 'leitura_newsitalic_4', Times, serif;
+body.nine a:link{
+    color: black;
+    text-decoration: underline;
 }
+
+body.nine a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+body.nine a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+body.nine a:visited{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
 
 
 /* STYLE TEN */
