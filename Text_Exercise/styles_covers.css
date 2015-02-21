@@ -810,6 +810,27 @@ body.nine a:visited{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* STYLE TEN */
 
 body.ten {
@@ -824,34 +845,81 @@ body.ten h1 {
 	font-size: 1.6rem;
 	line-height: 1.15;
 	margin: 0;
-}
-
-body.ten p {
-	width: 176px;
-	float: left;
-	position: relative;
-	padding: 15px;
-	text-align: left;
-	margin-top: 0;
-	margin-bottom: 0;
+    background-color: white;
+    font-style: italic;
 }
 
 body.ten div{
 	float: left;
-	width: 293px;
+	width: 200px;
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
-body.ten .menu{
-	font-size: 1.1rem;
-	float: left;
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+body.ten a:link{
+    color: black;
+    text-decoration: underline;
 }
+
+body.ten div a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+body.ten h1 a:hover{
+   color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+body.ten a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+body.ten a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+body.ten a:visited{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE ELEVEN */
