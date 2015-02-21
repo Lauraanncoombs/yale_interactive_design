@@ -803,34 +803,6 @@ body.nine a:visited{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* STYLE TEN */
 
 body.ten {
@@ -925,26 +897,28 @@ body.ten a:visited{
 /* STYLE ELEVEN */
 
 body.eleven {
-	font-family:'Maria Pro',Helvetica,Arial,sans-serif;
+	font-family: Helvetica,Arial,sans-serif;
 	margin-top: 20px;
+    background-color: black;
 }
 
-body.eleven h1 {
+body.eleven .eleven_one {
 	font-style: normal;
 	font-weight: normal;
 	font-family: 'PerpetuaTitlingMTPro-Light'; 
 	text-transform: uppercase;
 	font-size: 40px;
-	text-indent: 10%;
-	width: 80%;
+	text-indent: 5%;
 	color: #003;
 	margin: 0;
-	height: 45px;
 	width: 100%;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
+    background-color: black;
+    text-align: left;
+    color: white;
 }
 
-body.eleven h2 {
+body.eleven .eleven_two {
 	font-style: normal;
 	font-weight: medium;
 	font-family:'Maria Pro',Helvetica,Arial,sans-serif;
@@ -952,52 +926,90 @@ body.eleven h2 {
 	letter-spacing: -1px;
 	color: #003;
 	padding: 0;
-	margin: 0;
+	margin-top: 15px;
 	height: 40px;
 	width: 100%;
 	margin-bottom: 25px;
 	padding-left: 30px;
+    color: white;
+    background-color: black;
 }
 
-body.eleven span{
-	font-style: normal;
-	font-weight: normal;
-	font-family: 'PerpetuaTitlingMTPro-Light'; 
-	text-transform: uppercase;
-	font-size: 40px;
-	color: #003;
-	margin-left: 10%;
-	margin-bottom: 5px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+body.eleven h2 {
+    font-style: normal;
+    font-weight: medium;
+    font-family:'Maria Pro',Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #003;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+    color: white;
+    line-height: 45px;
 }
 
-body.eleven p {
-	font-style: normal;
-	font-weight: bold;
-	font-family:'Maria Pro',Helvetica,Arial,sans-serif;
-	font-size: 40px;
-	line-height: 43px;
-	letter-spacing: -1px;
-	color: #003;
-	margin-top: 0;
-	margin-bottom: 25px;
-	padding-top: 0;
-	max-width: 950px;
-	padding-left: 30px;
+
+body.eleven a:link{
+    color: black;
+    text-decoration: underline;
 }
 
-body.eleven div{
-	font-family:'Maria Pro',Helvetica,Arial,sans-serif;
-	font-size: 16px;
-	color: #003;
-	font-weight: bold;
-	padding-top: 20px;
-	line-height: 20px;
-	float: left;
-	padding-bottom: 30px;
-	padding-left: 30px;
+body.eleven div a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: black;
 }
+
+body.eleven h1 a:hover{
+   color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+body.eleven a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+}
+
+body.eleven a:active{
+    color: black;
+    text-decoration: underline;
+}
+
+body.eleven a:visited{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE TWELVE */
