@@ -1161,51 +1161,23 @@ body.fifteen a:active {color: magenta; text-decoration: none;}
 body.fifteen a:visited {color: magenta; text-decoration: none;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* mashups */
 /* -------------------------------------------------------------------------------------------- */
-
 
 /* STYLE 16: 01 + 15; */
 body.sixteen {
     font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
     text-transform: lowercase;
-    background-color: rgb(253, 247, 49);
+    background-color: black;
     letter-spacing: 2px;
     margin: 1em;
     font-family: sans-serif;
     font-size: 45px;
     line-height: 1.2;
-    color: rgb(0, 0, 0);
-    background: rgb(253,247,49);
+    color: rgb(253, 247, 49);
     font-weight: 600;
     padding: 10px;
+    transform: rotate(-8deg);
 }
 
 body.sixteen h2 {
@@ -1213,33 +1185,49 @@ body.sixteen h2 {
     font-weight: 600;
     font-style: normal;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(253, 247, 49);
     font-family: sans-serif;
     font-size: 45px;
     line-height: 1.2;
-    margin: 0;
+    margin-top: 50px;
     margin-bottom: 1em;
     padding: 0;
     letter-spacing: 2px;
     text-rendering: optimizelegibility;
     display: block;
-    transform: rotate(-4deg);
 }
 
-body.sixteen p {
-    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
-    margin-bottom: 1em;
-    text-align: justify;
-    margin: 0 0 1em 0;
-    display: block;
-    transform: rotate(-4deg);
-}
+body.sixteen a:link {color: rgb(253, 247, 49); text-decoration: underline;}
+body.sixteen a:hover {color: red; text-decoration: none;}
+body.sixteen a:active {color: red; text-decoration: none;}
+body.sixteen a:visited {color: rgb(253, 247, 49); text-decoration: underline;}
 
-body.sixteen em{
-    font-style: normal;
-    text-decoration: underline;
-    transform: rotate(-4deg);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE 17: 03 + 07; Yale Art + Other Means */
