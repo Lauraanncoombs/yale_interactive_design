@@ -1089,7 +1089,6 @@ body.fourteen p{
     margin-top: 1000px;
 }
 
-
 body.fourteen em{
     border-top: 1px solid;
     padding: 5px 0 4px 0;
@@ -1121,50 +1120,28 @@ body.fourteen a:hover {color: #f00; background-color: black; text-decoration: no
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* STYLE FIFTEEN */
 
 body.fifteen {
-	background: #f7f7f7;
-	font-size: 45px;
-	line-height: 1.3em;
-	color: #000;
-	padding: 85px;
-	font-family: "youngserifregular", Times, serif;
-	height: 100%;
-	margin: 0 0 100px 0
-	width: 890px;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-decoration: underline;
+    transform: rotate(-4deg);
+    background: #f7f7f7;
+    line-height: 1.3em;
+    color: #000;
+    padding: 85px;
+    height: 100%;
+    margin: 0 0 100px 0
+    width: 890px;
+    font-weight: lighter;
 }
 
 body.fifteen h1 {
+    line-height: 65px;
+    font-weight: normal;
 }
 
 body.fifteen h2 {
@@ -1178,20 +1155,10 @@ body.fifteen h2 {
 	transform: rotate(-4deg);
 }
 
-body.fifteen p{
-	transform: rotate(-4deg);
-	font-weight: bold;
-	margin: 0px;
-}
-
-body.fifteen em{
-	font-style: normal;
-	font-size: 40px;
-	font-weight: lighter;
-	font-family: sans-serif;
-	text-decoration: underline;
-	transform: rotate(-4deg);
-}
+body.fifteen a:link {color: black; text-decoration: none;}
+body.fifteen a:hover {color: magenta; text-decoration: none;}
+body.fifteen a:active {color: magenta; text-decoration: none;}
+body.fifteen a:visited {color: magenta; text-decoration: none;}
 
 
 
