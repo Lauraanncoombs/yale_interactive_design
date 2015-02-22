@@ -1294,28 +1294,6 @@ body.eighteen a:active {color: black; text-decoration: none;}
 body.eighteen a:visited {color: black; text-decoration: none;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* STYLE 19: 09 + 14; Green + Alex Lin */
 /* 14 */
 body.nineteen {
@@ -1333,30 +1311,7 @@ body.nineteen {
     width: 540px;
 }
 
-body.nineteen h1 {
-    font-family: "Times New Roman", serif;
-    color: black;
-    font-size: 33px;
-    font-weight: bold;
-    border-bottom: 1px solid;
-    line-height: 32px;
-    display: inline-block;
-    border-color: black;
-    background-color: #f3f3f3;
-    cursor: pointer;
-}
-
-body.nineteen h2 {
-    font-weight: normal;
-    font-size: 19px;
-    line-height: 22px;
-    color: #00A7E5;
-    font-family: "Times New Roman", serif;
-    border-top: 1px solid;
-    padding: 5px 0 20px 0;
-}
-
-body.nineteen p{
+body.nineteen .nineteen_one{
     border-top: 1px solid;
     border-color: #00c36a;
     cursor: pointer;
@@ -1370,20 +1325,45 @@ body.nineteen p{
     font-size: 16px;
     line-height: 22px;
     display: inline-block;
+    font-style: italic;
     /*clear: right;*/
 }
 
-body.nineteen span{
-    font-size: 12px;
-    line-height: 5px;
+body.nineteen a:link {color: #00c36a; text-decoration: none;}
+body.nineteen a:hover {color: #00A7E5; text-decoration: none;}
+body.nineteen a:active {color: #00c36a; text-decoration: none;}
+body.nineteen a:visited {color: #00c36a; text-decoration: none;}
+
+body.nineteen .nineteen_two{
+    border-top: 1px solid;
+    border-color: #00A7E5;
+    cursor: crosshair;
+    color: #00A7E5;
+    font-weight: normal;
     font-family: "Times New Roman", serif;
-    color: #00c36a;
-
+    padding: 5px;
+    width: 250px;
+    margin: 5px;
+    float: left;
+    font-size: 16px;
+    line-height: 22px;
+    display: inline-block;
+    /*clear: right;*/
 }
 
-body.nineteen em{
-    font-weight: bold;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE 20: 7 + 13; Others Means + Linked By Air */
