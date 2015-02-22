@@ -943,32 +943,6 @@ body.eleven a:visited{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* STYLE TWELVE */
 
 body.twelve {
@@ -1011,78 +985,55 @@ body.twelve .effect:active {color: blue; text-decoration: underline;}
 body.twelve .effect:visited {color: #545454; text-decoration: none;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* STYLE THIRTEEN */
 
 body.thirteen {
-	color: #fff;
+	color: white;
 	background-color: #f00;
 	cursor: pointer;
+    font-family: Times, Times New Roman;
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 75px;
+    margin-right: 50px;
 }
 
-body.thirteen h1 {
-	font-family: Times, Times New Roman;
-	font-size: 72px;
-	line-height: 86px;
-	font-weight: bold;
-	margin-left: 50px;
-	margin-top: 150px;
-	margin-bottom: 75px;
-	margin-right: 50px;
-}
+body.thirteen a:link {color: white; text-decoration: none;}
+body.thirteen a:visited {color: white; text-decoration: none;}
+body.thirteen a:active {color: #f00; background-color: black; text-decoration: none;}
+body.thirteen a:hover {color: #f00; background-color: black; text-decoration: none;}
 
-body.thirteen p{
-	margin-left: 50px;
-	font-family: Andale Mono, 'AndaleMono', Courier New, Courier, monospace;
-	font-size: 16px;
-	line-height: 18px;
-	letter-spacing: 1px;
-	margin-right: 50px;
-}
 
-body.thirteen span{
-	text-decoration: underline;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE FOURTEEN */
