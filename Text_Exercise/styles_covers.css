@@ -1246,82 +1246,75 @@ body.seventeen a:visited {color: pink; text-decoration: none;}
 
 
 
-
-
-
-
-
-
-
-
-
 /* STYLE 18: 11 + 13; Avery Review + LinkedByAir */
 /* 11 */
 body.eighteen {
     font-family:'Maria Pro',Helvetica,Arial,sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
+    background-color: black;
 }
 
-body.eighteen h2 {
-    font-style: normal;
-    font-weight: medium;
+body.eighteen .eighteen_one{
+    /*font-style: italic;*/
+    font-size: 40px;
+    color: #003;
+    padding: 20px;
+    font-family: Times, Times New Roman;
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: bold;
+    margin-left: 50px;
+    color: #fff;
+    background-color: #f00;
+    cursor: pointer;
+    /*width: 650px;*/
+}
+
+body.eighteen .eighteen_two {
+    font-weight: bold;
     font-family:'Maria Pro',Helvetica,Arial,sans-serif;
     font-size: 40px;
     letter-spacing: -1px;
-    color: #003;
+    color: white;
     padding: 0;
     margin: 0;
     height: 40px;
     width: 100%;
     margin-bottom: 25px;
     padding-left: 20px;
+    position: fixed;
+    top: 208px;
+    left: 0px;
+   /* background-color: lime;*/
 }
 
-body.eighteen span{
-    font-style: normal;
-    font-size: 40px;
-    color: #003;
-    padding: 20px;
-    font-family: Times, Times New Roman;
-    font-size: 72px;
-    line-height: 86px;
-    font-weight: bold;
-    margin-left: 50px;
-    color: #fff;
-    background-color: #f00;
-    cursor: pointer;
-}
+body.eighteen a:link {color: white; text-decoration: none;}
+body.eighteen a:hover {color: black; text-decoration: none;}
+body.eighteen a:active {color: black; text-decoration: none;}
+body.eighteen a:visited {color: black; text-decoration: none;}
 
-body.eighteen p {
-    font-style: normal;
-    font-weight: bold;
-    font-family:'Maria Pro',Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    line-height: 43px;
-    letter-spacing: -1px;
-    color: #003;
-    margin-top: 0;
-    margin-bottom: 25px;
-    padding-top: 0;
-    max-width: 950px;
-    padding-left: 20px;
-}
 
-body.eighteen div{
-    font-style: normal;
-    font-size: 40px;
-    color: #003;
-    padding: 20px;
-    font-family: Times, Times New Roman;
-    font-size: 72px;
-    line-height: 86px;
-    font-weight: bold;
-    margin-left: 0px;
-    color: #fff;
-    background-color: #f00;
-    cursor: pointer;
-    margin-left: 50px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* STYLE 19: 09 + 14; Green + Alex Lin */
 /* 14 */
