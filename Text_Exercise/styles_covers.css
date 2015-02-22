@@ -1352,20 +1352,6 @@ body.nineteen .nineteen_two{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* STYLE 20: 7 + 13; Others Means + Linked By Air */
 /* 7 */
 body.twenty {
@@ -1381,7 +1367,7 @@ body.twenty {
     padding: 0px;
 }
 
-body.twenty .black {
+body.twenty .twenty_one {
     color: #FFF;
     font-family: 'MariaProRegular', serif;
     background-color: black;
@@ -1390,7 +1376,7 @@ body.twenty .black {
     font-size: 40px;
     line-height: 1.2em;
     font-weight: normal;
-    
+    /*text-decoration: underline;*/
     margin-right: 0;
     margin-left: 0;
     margin-top: 0px;
@@ -1401,7 +1387,7 @@ body.twenty .black {
     padding-bottom: 10px;
 }
 
-body.twenty .red {
+body.twenty .twenty_two {
     color: #FFF;
     font-family: 'MariaProRegular', serif;
     background-color: #f00;
@@ -1409,7 +1395,7 @@ body.twenty .red {
     font-size: 40px;
     line-height: 1.2em;
     font-weight: normal;
-
+    cursor: crosshair;
     margin-right: 0;
     margin-left: 0;
     margin-top: 0px;
@@ -1420,9 +1406,8 @@ body.twenty .red {
     padding-bottom: 10px;   
 }
 
-body.twenty p{
-    margin: 0;
-    padding: 0;
-}
-
+body.twenty a:link {color: white; text-decoration: none;}
+body.twenty a:hover {color: #00FFFF; text-decoration: none;}
+body.twenty a:active {color: #00FFFF; text-decoration: none;}
+body.twenty a:visited {color: white; text-decoration: none;}
 
