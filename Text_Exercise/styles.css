@@ -526,6 +526,21 @@ body.nine p span {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* STYLE TEN */
 
 body.ten {
@@ -552,22 +567,57 @@ body.ten p {
 	margin-bottom: 0;
 }
 
-body.ten div{
-	float: left;
+body.ten div.menu{
+	/*float: left;
 	width: 293px;
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 15px;*/
+    font-size: 1.1rem;
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1.4rem;
 }
 
-body.ten .menu{
-	font-size: 1.1rem;
-	float: left;
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+body.ten div.menu_2{
+    float: left;
+    width: 293px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE ELEVEN */
@@ -635,7 +685,7 @@ body.eleven p {
 	padding-left: 30px;
 }
 
-body.eleven div{
+body.eleven div.eleven_footer{
 	font-family:'Maria Pro',Helvetica,Arial,sans-serif;
 	font-size: 16px;
 	color: #003;
@@ -643,7 +693,7 @@ body.eleven div{
 	padding-top: 20px;
 	line-height: 20px;
 	float: left;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 	padding-left: 30px;
 }
 
@@ -949,7 +999,7 @@ body.eighteen h2 {
     padding: 0;
     margin: 0;
     height: 40px;
-    width: 100%;
+    /*width: 100%;*/
     margin-bottom: 25px;
     padding-left: 20px;
 }
@@ -984,7 +1034,7 @@ body.eighteen p {
     padding-left: 20px;
 }
 
-body.eighteen div{
+body.eighteen div.eighteen_footer{
     font-style: normal;
     font-size: 40px;
     color: #003;
@@ -998,7 +1048,9 @@ body.eighteen div{
     background-color: #f00;
     cursor: pointer;
     margin-left: 50px;
+    /*max-width: 950px;*/
 }
+
 
 /* STYLE 19: 09 + 14; Green + Alex Lin */
 /* 14 */

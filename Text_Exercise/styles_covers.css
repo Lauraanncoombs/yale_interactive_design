@@ -533,30 +533,6 @@ body.six .six_copyright{
 
 }
 
-/*body.six .six_footer a:link{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-body.six .six_footer a:hover{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-body.six .six_footer a:active{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-body.six .six_footer a:visited{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}*/
-
 
 /* Cover SEVEN */
 
@@ -600,13 +576,14 @@ body.seven .seven_two{
 body.seven span{
     color: white;
     text-decoration: none;
+    font-style: italic;
 }
 
 
 body.seven a:link{
     color: black;
     text-decoration: none;
-    font-style: italic;
+    font-style: none;
 }
 
 body.seven a:hover{
@@ -623,8 +600,6 @@ body.seven a:visited{
     color: black;
     text-decoration: none;
 }
-
-
 
 
 
@@ -766,7 +741,7 @@ body.nine .nine_two {
     background-color: #00c36a;
     position: fixed;
     top: 250px;
-    z-index: 5;
+    z-index: 1;
     text-align: left;
 }
 
@@ -776,7 +751,7 @@ body.nine .nine_three {
     background-color: #00c36a;
     position: fixed;
     top: 370px;
-    z-index: 5;
+    z-index: 1;
     text-align: left;
 }
 
@@ -786,7 +761,7 @@ body.nine .nine_four {
     background-color: #00c36a;
     position: fixed;
     top: 490px;
-    z-index: 5;
+    z-index: 1;
     text-align: left;
 }
 
@@ -830,14 +805,56 @@ body.ten h1 {
     font-style: italic;
 }
 
-body.ten div{
+body.ten div.ten_one{
 	float: left;
-	width: 200px;
+	width: 180px;
 	padding-right: 15px;
 	padding-left: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+    /*background-color: lime;*/
 }
+
+body.ten div.ten_two{
+    float: left;
+    width: 180px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*background-color: pink;*/
+}
+
+body.ten div.ten_three{
+    float: left;
+    width: 180px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*background-color: lime;*/
+}
+
+body.ten div.ten_four{
+    float: left;
+    width: 180px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*background-color: pink;*/
+}
+
+body.ten div.ten_five{
+    float: left;
+    width: 200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    /*background-color: lime;*/
+}
+
 
 body.ten a:link{
     color: black;
@@ -877,7 +894,7 @@ body.eleven .eleven_one {
 	text-indent: 5%;
 	color: #003;
 	margin: 0;
-	width: 100%;
+	/*width: 100%;*/
 	margin-bottom: 0px;
     background-color: black;
     text-align: left;
@@ -894,7 +911,7 @@ body.eleven .eleven_two {
 	padding: 0;
 	margin-top: 15px;
 	height: 40px;
-	width: 100%;
+	/*width: 100%;*/
 	margin-bottom: 25px;
 	padding-left: 30px;
     color: white;
@@ -911,7 +928,7 @@ body.eleven h2 {
     padding: 0;
     margin: 0;
     height: 40px;
-    width: 100%;
+    /*width: 100%;*/
     margin-bottom: 25px;
     color: white;
     line-height: 45px;
@@ -1129,9 +1146,14 @@ body.fourteen a:hover {color: #f00; background-color: black; text-decoration: no
 */
 
 
+
 /* STYLE FIFTEEN */
 
-body.fifteen {
+body.fifteen{
+    background: #f7f7f7;
+}
+
+body.fifteen div.fifteen_title_container{
     font-style: normal;
     font-size: 40px;
     font-weight: lighter;
@@ -1141,12 +1163,28 @@ body.fifteen {
     background: #f7f7f7;
     line-height: 1.3em;
     color: #000;
-    padding: 85px;
+    padding-left: 85px;
+    padding-top: 85px;
     height: 100%;
-    margin: 0 0 100px 0
+    margin: 0;
     width: 890px;
     font-weight: lighter;
 }
+
+body.fifteen div.fifteen_info{
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 40px;
+    background: #f7f7f7;
+    color: #000;
+    padding-left: 100px;
+    height: 100%;
+    /*margin: 0 0 100px 0*/
+    width: 890px;
+    transform: rotate(-4deg);
+}
+
 
 body.fifteen h1 {
     line-height: 65px;
@@ -1170,22 +1208,31 @@ body.fifteen a:active {color: magenta; text-decoration: none;}
 body.fifteen a:visited {color: magenta; text-decoration: none;}
 
 
+
 /* mashups */
 /* -------------------------------------------------------------------------------------------- */
 
 /* STYLE 16: 01 + 15; */
 body.sixteen {
-    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
-    text-transform: lowercase;
     background-color: black;
+    color: rgb(253, 247, 49);
     letter-spacing: 2px;
     margin: 1em;
     font-family: sans-serif;
     font-size: 45px;
     line-height: 1.2;
-    color: rgb(253, 247, 49);
     font-weight: 600;
     padding: 10px;
+    font-family: "Arial Narrow", "arial_narrowregular", "Arial", sans-serif;
+    text-transform: lowercase;
+    
+}
+
+body.sixteen div.sixteen_title_container{
+    transform: rotate(-8deg);
+}
+
+body.sixteen div.sixteen_info{
     transform: rotate(-8deg);
 }
 
@@ -1210,6 +1257,31 @@ body.sixteen a:link {color: rgb(253, 247, 49); text-decoration: underline;}
 body.sixteen a:hover {color: red; text-decoration: none;}
 body.sixteen a:active {color: red; text-decoration: none;}
 body.sixteen a:visited {color: rgb(253, 247, 49); text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STYLE 17: 03 + 07; Yale Art + Other Means */
