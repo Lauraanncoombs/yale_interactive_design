@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://yaleinteractivedesign.com/class/content/ResponsiveWorld/ -->
+<html><head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+  	<title>Responsive World</title>
+  	<link rel="stylesheet" href="styles/test.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <style>
+  
+  	body { background: red; }
+  	img { max-width: 100%; height: auto; }
+  	#ketchup {display: none;}
+
+  	@media screen and (max-width: 1024px) {
+    body { background: blue; }
+    #ketchup {display: none;}
+    /*img { max-width: 100%; height: auto; }*/
+  }
+
+  @media screen and (max-width: 768px) {
+    body { background: yellow; }
+    #ketchup {display: none;}
+  }
+
+  @media screen and (max-width: 600px) {
+    body { background: lime; }
+    #ketchup {display: block;}
+  }
+
+  @media screen and (max-width: 480px) {
+  		/*.nav-item.con {width: 33.333333%;}
+  		.nav-item { 
+  		float: none;
+  		height: auto;
+  		display: block;
+  		width: 100%;
+  		}*/
+    body { background: cyan;}
+    #ketchup {display: none;}
+  }
+
+  @media screen and (max-width: 320px) {
+    body { background: magenta; }
+    #ketchup {display: none;}
+  }
+  
+  
+  #image{position:absolute; top: 0; z-index: -25;}
+  #ketchup{position:absolute; top:0; z-index: 25;}
+
+  </style>
+
+</head>
+
+
+
+
+
+<body> 
+  
+  <div id="image"><img src="chicken.png"/></div>     
+  <div id="ketchup"><img src="ketchup.png"/></div>
+
+
+
+</body></html>

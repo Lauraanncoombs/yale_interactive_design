@@ -1,0 +1,10 @@
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* styles for MacBook Pro-sized screens and larger */
+    .body {
+    	background-color: lime;
+    }
+}
