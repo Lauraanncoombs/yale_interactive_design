@@ -13,21 +13,33 @@
   	body { background: red; }
   	img { max-width: 100%; height: auto; }
   	#ketchup {display: none;}
+  	#mustard {display: none;}
+  	#ducksauce {display: none;}
+  	#bbq {display: none;}
 
   	@media screen and (max-width: 1024px) {
     body { background: blue; }
     #ketchup {display: none;}
+    #mustard {display: block;}
+    #ducksauce {display: none;}
+    #bbq {display: none;}
     /*img { max-width: 100%; height: auto; }*/
   }
 
   @media screen and (max-width: 768px) {
     body { background: yellow; }
     #ketchup {display: none;}
+    #mustard {display: none;}
+    #ducksauce {display: block;}
+    #bbq {display: none;}
   }
 
   @media screen and (max-width: 600px) {
     body { background: lime; }
     #ketchup {display: block;}
+    #mustard {display: none;}
+    #ducksauce {display: none;}
+    #bbq {display: none;}
   }
 
   @media screen and (max-width: 480px) {
@@ -40,16 +52,25 @@
   		}*/
     body { background: cyan;}
     #ketchup {display: none;}
+    #mustard {display: none;}
+    #ducksauce {display: none;}
+    #bbq {display: block;}
   }
 
   @media screen and (max-width: 320px) {
     body { background: magenta; }
     #ketchup {display: none;}
+    #mustard {display: none;}
+    #ducksauce {display: none;}
+    #bbq {display: none;}
   }
   
   
   #image{position:absolute; top: 0; z-index: -25;}
   #ketchup{position:absolute; top:0; z-index: 25;}
+  #mustard{position:absolute; top:100px; left: 200px; z-index: 25;}
+  #ducksauce{position:absolute; top:25px; left: 200px; z-index: 25;}
+  #bbq{position:absolute; top:25px; left: 100px; z-index: 25;}
 
   </style>
 
@@ -63,6 +84,9 @@
   
   <div id="image"><img src="chicken.png"/></div>     
   <div id="ketchup"><img src="ketchup.png"/></div>
+  <div id="mustard"><img src="mustard.png"/></div>
+  <div id="ducksauce"><img src="ducksauce.png"/></div>
+  <div id="bbq"><img src="bbq.png"/></div>
 
 
 
