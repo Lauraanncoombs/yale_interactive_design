@@ -922,7 +922,7 @@ body { background: white; }
 
 /*320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 */
 @media screen and (max-width: 320px) {
-  body { background: magenta; }
+  body { background: white; }
   .container {width: 320px;}    
   .balloon1 {
     width: 200px; 
