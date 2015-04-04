@@ -925,23 +925,222 @@ body { background: white; }
   body { background: magenta; }
   .container {width: 320px;}    
   .balloon1 {
-    /*background-color: lime;*/
     width: 200px; 
-    margin: auto; 
-    z-index: -1; 
-    position: absolute;
-    top: 0;
-    left: 160px;
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
     transform: translate(-50%, 0);
   }
 
   .balloon2 {
     width: 200px; 
-    margin: auto; 
-    z-index: 1; 
-    position: absolute;
-    top: 200px;
-    left: 160px;
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon3 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon4 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon5 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon6 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon7 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon8 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon9 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon10 {
+   width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon11 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon12 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon13 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon14 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon15 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon16 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon17 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon18 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon19 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon20 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
     transform: translate(-50%, 0);
   }
 }
