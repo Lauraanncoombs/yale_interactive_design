@@ -1,0 +1,80 @@
+
+.container {
+    background: white;
+}
+
+.balloon{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+}
+
+.balloon a{
+	width: 150px;
+	height: 200px;
+	position: absolute;
+	display: none;
+	font: arial;
+	font-size: 20px;
+	text-align: center;
+	padding: 30px 0px;
+	color: red;
+	z-index: 1;
+}
+
+.balloon:hover a{
+	display: block;
+}
+
+.balloon-image{
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	background-image: url("../images/palepinkballoon-small.png");
+	z-index: 99;
+	/*-webkit-filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.25));
+	filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.25));
+	filter: url(shadow.svg#drop-shadow);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12,
+	Color='#444')";
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";*/
+}
+
+.balloon-image:hover{
+	background-image: url("../images/palepinkballoon-big.png");
+	background-size: 200px 250px;
+	cursor: pointer;
+	/*cursor: url("../images/arrow2.ico"), pointer;*/
+}
+
+.balloon-image:active {
+	background-image: url("../images/palepinkballoon-click.png");
+	background-size: 200px 250px;
+	/*cursor: url("../images/arrow2.ico"), pointer;*/
+	cursor: pointer;
+}
+
+.balloon-image:visited {
+	display: none;
+}
+
+#two{
+	top: 50px;
+	left: 50px;
+}
+
+#three{
+	top: 200px;
+	left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+

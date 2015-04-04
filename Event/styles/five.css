@@ -1,0 +1,137 @@
+
+html{
+	cursor: crosshair;
+}
+
+.container {
+    background: white;
+}
+
+.balloon{
+	width: 400px;
+	height: 250px;
+	position: absolute;
+}
+
+.balloon a, .balloon a:visited{
+	position: absolute;
+	padding: 40px;
+	margin-top: 45px;
+	color: black;
+	z-index: 1;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	width: 160px;
+	height: 160px;
+}
+
+/*use to bring text up and down on other ID's*/
+#two a{
+	margin-top: 45px;
+}
+
+
+
+.balloon-info{
+	width:250px;
+	height: 250px;
+	opacity: 0;
+	position: absolute;
+	left: 0px;
+	background-image: url("../images/info-bubble.png");
+	z-index: 200;
+}
+
+#two .balloon-info {
+	top:200px;
+}
+
+.balloon-image{
+	width: 200px;
+	height: 250px;
+	/*background-color: magenta;*/
+	position: absolute;
+	right: 0px;
+	background-image: url("../images/palepinkballoon-small.png");
+	z-index: 99;
+	opacity: 1;
+
+	-webkit-filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.15));
+	filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.15));
+	filter: url(shadow.svg#drop-shadow);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12,
+	Color='#444')";
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.balloon-image:hover{
+	background-size: 200px 250px;
+}
+
+.balloon-image:active {
+	background-image: url("../images/palepinkballoon-click.png");
+	background-size: 200px 250px;
+}
+
+#two{
+	top: 50px;
+	left: 50px;
+}
+
+#three{
+	top: 100px; /*absolute positioning for both balloon and info*/
+	left: 600px;
+}
+
+/*Info disappears when hover over the balloon, balloon goes away fast*/
+.balloon:hover .balloon-info{
+	/*display: block;*/
+	opacity: 1;
+  	transition: opacity .25s ease-in-out;
+  	-moz-transition: opacity .25s ease-in-out;
+  	-webkit-transition: opacity .25s ease-in-out;
+}
+
+.balloon:hover .balloon-image{
+	/*display: none;*/
+	opacity: 0;
+  	transition: opacity .15s ease-in-out;
+  	-moz-transition: opacity .15s ease-in-out;
+  	-webkit-transition: opacity .15s ease-in-out;
+}
+
+
+
+#background-container{
+	width: 100%;
+    height: 4800px;
+    background-image: url("../images/chickenwings1.png");
+    background-position: 0px;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    -webkit-animation: myanim 20s infinite linear;
+       -moz-animation: myanim 20s infinite linear;
+         -o-animation: myanim 20s infinite linear;
+    		animation: myanim 20s infinite linear;
+}
+
+@-webkit-keyframes myanim {
+    0%   { background-position: 0px; } /* add 5px to the right to have it move vertically */
+    100% { background-position: 100px; } /* set this to the width of the image */
+}
+@-moz-keyframes myanim {
+    0%   { background-position: 0px; }
+    100% { background-position: 100px; } /* set this to the width of the image */
+}
+@-o-keyframes myanim {
+    0%   { background-position: 0px; }
+    100% { background-position: 100px; } /* set this to the width of the image */
+}
+@keyframes myanim {
+    0%   { background-position: 0px; }
+    100% { background-position: 100px; } /* set this to the width of the image */
+}
+
+
