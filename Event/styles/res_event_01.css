@@ -87,7 +87,7 @@ body { background: red; }
       .imagepink {
         width: 150px; 
         margin: auto; 
-        background-color: lime; 
+        background-color: magenta; 
         z-index: -1; 
         position: absolute;
         top: 0;
