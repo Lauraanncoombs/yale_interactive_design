@@ -81,6 +81,7 @@ body { background: red; }
       body { background: magenta; }
       .container {width: 320px;}    
       .imagepink {
+        background-color: lime;
         /*width: 150px; 
         margin: auto; 
         background-color: magenta; 
