@@ -1,105 +1,947 @@
-body { background: red; }
+body { background: white; }
 /*img { max-width: 100%; height: auto;}*/
 .info{display: none;}
-.container{width: 1200px;}
-.imagepink {
-  width: 150px; 
-  margin: auto; 
-  background-color: lime; 
-  z-index: -1; 
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.container{
+  width: 1200px; 
 }
 
-.imagegray {
-  width: 150px; 
+.balloon1 {
+  width: 200px; 
   margin: auto; 
-  background-color: pink; 
-  z-index: 1; 
+  /*background-color: lime; */ 
   position: absolute;
+  top: 100px;
+  left: 250px;
+  transform: translate(-50%, 0);
 }
 
+.balloon2 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 280px;
+  left: 460px;
+  transform: translate(-50%, 0);
+}
 
+.balloon3 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 230px;
+  left: 865px;
+  transform: translate(-50%, 0);
+}
+
+.balloon4 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 100px;
+  left: 1100px;
+  transform: translate(-50%, 0);
+}
+
+.balloon5 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 380px;
+  left: 100px;
+  transform: translate(-50%, 0);
+}
+
+.balloon6 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 500px;
+  left: 325px;
+  transform: translate(-50%, 0);
+}
+
+.balloon7 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 700px;
+  left: 400px;
+  transform: translate(-50%, 0);
+}
+
+.balloon8 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 850px;
+  left: 115px;
+  transform: translate(-50%, 0);
+}
+
+.balloon9 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 750px;
+  left: 775px;
+  transform: translate(-50%, 0);
+}
+
+.balloon10 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 700px;
+  left: 1050px;
+  transform: translate(-50%, 0);
+}
+
+.balloon11 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 650px;
+  left: 1200px;
+  transform: translate(-50%, 0);
+}
+
+.balloon12 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 1150px;
+  left: 300px;
+  transform: translate(-50%, 0);
+}
+
+.balloon13 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 1300px;
+  left: 1000px;
+  transform: translate(-50%, 0);
+}
+
+.balloon14 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 1600px;
+  left: 1100px;
+  transform: translate(-50%, 0);
+}
+
+.balloon15 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 2000px;
+  left: 1000px;
+  transform: translate(-50%, 0);
+}
+
+.balloon16 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 2400px;
+  left: 100px;
+  transform: translate(-50%, 0);
+}
+
+.balloon17 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 2900px;
+  left: 800px;
+  transform: translate(-50%, 0);
+}
+
+.balloon18 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 3500px;
+  left: 1100px;
+  transform: translate(-50%, 0);
+}
+
+.balloon19 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 4000px;
+  left: 100px;
+  transform: translate(-50%, 0);
+}
+
+.balloon20 {
+  width: 200px; 
+  margin: auto; 
+  /*background-color: pink; */
+  position: absolute;
+  top: 6000px;
+  left: 380px;
+  transform: translate(-50%, 0);
+}
 
 @media screen and (max-width: 1024px) {
   body { background: blue; }
+  .container{width: 1024px;}
+  .balloon4 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon10 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 550px;
+    left: 875px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon11 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 500px;
+    left: 700px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon13 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1300px;
+    left: 800px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon14 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1600px;
+    left: 700px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon15 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 2000px;
+    left: 200px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon18 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 3500px;
+    left: 400px;
+    transform: translate(-50%, 0);
+  }
 }
 
 
+/*768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 */
 @media screen and (max-width: 768px) {
   body { background: yellow; }
   /*img { max-width: 100%; height: auto; }*/
+  .balloon1 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: lime; */ 
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon2 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon3 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 230px;
+    left: 500px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon4 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon5 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon6 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 500px;
+    left: 325px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon7 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 700px;
+    left: 400px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon8 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 850px;
+    left: 115px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon9 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 750px;
+    left: 600px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon10 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon11 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1250px;
+    left: 600px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon12 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1150px;
+    left: 300px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon13 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1300px;
+    left: 10px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon14 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon15 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 2000px;
+    left: 400px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon16 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon17 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 2900px;
+    left: 400px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon18 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 3500px;
+    left: 500px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon19 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 4000px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon20 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 6000px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
 
+/*600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 */
 @media screen and (max-width: 600px) {
-  body { background: magenta; }
+  body { background: cyan; }
   /*img { max-width: 100%; height: auto; }*/
+  .balloon1 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: lime; */ 
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon2 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon3 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 230px;
+    left: 80%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon4 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 5px;
+    left: 60%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon5 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 380px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon6 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 500px;
+    left: 325px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon7 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 700px;
+    left: 83%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon8 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 850px;
+    left: 15%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon9 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 750px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon10 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon11 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1100px;
+    left: 25%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon12 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1300px;
+    left: 300px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon13 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon14 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 1600px;
+    left: 150px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon15 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 2000px;
+    left: 75%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon16 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 2400px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon17 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 2900px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon18 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 3500px;
+    left: 75%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon19 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 4000px;
+    left: 100px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon20 {
+    width: 200px; 
+    margin: auto; 
+    /*background-color: pink; */
+    position: absolute;
+    top: 6000px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
-
+/*480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 */
 @media screen and (max-width: 480px) {
-  		/*.nav-item.con {width: 33.333333%;}
-  		.nav-item { 
-  		float: none;
-  		height: auto;
-  		display: block;
-  		width: 100%;
-  		}*/
-      body { background: cyan;}
-      .container {width: 480px;}
-      /*.stack {
-        display: inline-block;
-        width: 100%;}*/
-        
-      .imagepink {
-        width: 150px; 
-        margin: auto; 
-        background-color: lime; 
-        z-index: -1; 
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%, 0);
+  body { background: pink;}
+  .container {width: 480px;}
+  .balloon1 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon2 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon3 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon4 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon5 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon6 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon7 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon8 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon9 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon10 {
+   width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon11 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon12 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon13 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon14 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon15 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon16 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon17 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon18 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon19 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon20 {
+    width: 200px; 
+   /* margin: auto;*/ 
+    /*background-color: lime; */ 
+    /*position: absolute;
+    top: 100px;*/
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
 }
 
-      .imagegray {
-        width: 150px; 
-        margin: auto; 
-        background-color: pink; 
-        z-index: 1; 
-        position: absolute;
-        top: 200px;
-        left: 50%;
-        transform: translate(-50%, 0);
-      }
+
+
+
+
+/*320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 */
+@media screen and (max-width: 320px) {
+  body { background: magenta; }
+  .container {width: 320px;}    
+  .balloon1 {
+    /*background-color: lime;*/
+    width: 200px; 
+    margin: auto; 
+    z-index: -1; 
+    position: absolute;
+    top: 0;
+    left: 160px;
+    transform: translate(-50%, 0);
+  }
+
+  .balloon2 {
+    width: 200px; 
+    margin: auto; 
+    z-index: 1; 
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    transform: translate(-50%, 0);
+  }
 }
-
-
-    @media screen and (max-width: 320px) {
-      body { background: magenta; }
-      .container {width: 320px;}    
-      .imagepink {
-        /*background-color: lime;*/
-        width: 150px; 
-        margin: auto; 
-        background-color: magenta; 
-        z-index: -1; 
-        position: absolute;
-        top: 0;
-        left: 160px;
-        transform: translate(-50%, 0);
-      }
-
-      .imagegray {
-        width: 150px; 
-        margin: auto; 
-        background-color: pink; 
-        z-index: 1; 
-        position: absolute;
-        top: 200px;
-        left: 160px;
-        transform: translate(-50%, 0);
-      }
-    }
