@@ -1,15 +1,76 @@
+body {
+    height: 100%;
+}
 
-
-
-
-
-.container {
-    background: white;
-    /*background-color:#00AAAA; */
+#container {
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
-.overlay{
+.balloon {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:0;
+    top:0;
+    background-image: url("../images/palepinkballoon-small.png");
+}
+
+.balloon-2 {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:200px;
+    top:400px;
+    background-image: url("../images/palepinkballoon-small.png");
+}
+
+.balloon-3 {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:450px;
+    top:1000px;
+    background-image: url("../images/palepinkballoon-small.png");
+}
+
+.balloon-4 {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:700px;
+    top:100px;
+    background-image: url("../images/palepinkballoon-small.png");
+}
+
+.balloon-5 {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:950px;
+    top:0;
+    background-image: url("../images/palepinkballoon-small.png");
+}
+
+.bodycontainer {
+    background: white;
+    /*background-color:#00AAAA; */
+    position: relative;
+    /*height: 1250px;*/
+}
+
+.textblock{
   position: absolute;
   top: 0;
   left: 0;
@@ -25,7 +86,7 @@
 
 
 
-.balloon{
+/*.balloon{
 	width: 150px;
 	height: 200px;
 	position: absolute;
@@ -46,7 +107,7 @@
 
 .balloon:hover a{
 	display: block;
-}
+}*/
 
 .balloon-image{
 	width: 150px;
