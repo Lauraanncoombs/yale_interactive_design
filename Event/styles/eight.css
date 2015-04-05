@@ -1,0 +1,607 @@
+html{
+	cursor: crosshair;
+}
+
+body.container { 
+	background: #e3ffff;
+  	width: 1200px; 
+}
+
+.balloon{
+	width: 100px;
+	height: 200px;
+	position: absolute;
+	/*background-color: lime;*/
+}
+
+.balloon:hover{
+	width: 400px;
+	height: 250px;
+	margin-left: -100px;
+}
+
+.balloon a, .balloon a:visited{
+	position: absolute;
+	padding: 40px;
+	margin-top: 45px;
+	color: black;
+	z-index: 1;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	width: 160px;
+	height: 160px;
+}
+
+.balloon-info{
+	width:250px;
+	height: 250px;
+	display: none;
+	opacity: 0;
+	position: absolute;
+	margin: 0;
+	left: 0px;
+	z-index: 200;
+}
+
+.balloon-image{
+	width: 200px;
+	height: 250px;
+	/*background-color: magenta;*/
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -50px;
+	top: -25px;
+	/*background-image: url("../images/palepinkballoon-big.png");*/
+	z-index: 99;
+	opacity: 1;
+
+	-webkit-filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.15));
+	filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.15));
+	filter: url(shadow.svg#drop-shadow);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/*.balloon-image:hover{
+	background-size: 200px 250px;
+}
+
+.balloon-image:active {
+	background-image: url("../images/palepinkballoon-click.png");
+	background-size: 200px 250px;
+}*/
+
+
+
+/*----HOVER BEHAVIOR--------------------------------------------------------------------------------------------------------*/
+
+/*Info disappears when hover over the balloon, balloon goes away fast*/
+/*.balloon:hover .balloon-info{
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}*/
+
+.balloon:hover .balloon-info{
+	display: block;
+	opacity: 1;
+	/*transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;*/
+}
+
+.balloon:hover .balloon-image{
+	/*display: none;*/
+	opacity: 0;
+	/*transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-webkit-transition: opacity .15s ease-in-out;*/
+}
+
+
+
+
+/*----BALLOON PLACEMENT-------------------------BALLOON PLACEMENT---------------------------------------BALLOON PLACEMENT----------------------------------------*/
+
+#one{
+	top: 10px;
+  	left: 25%;
+	transform: translate(-50%, 0);
+}
+
+#one .balloon-image{
+	background-image: url("../images/balloons/balloon1.png");
+}
+
+#one .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	top:200px;
+}
+
+
+/*#two a{
+	margin-top: 45px; use to bring text up and down on other ID's
+}*/
+
+#two{
+	top: 280px;
+  	left: 40%;
+	transform: translate(-50%, 0);
+}
+
+#two .balloon-image{
+	background-image: url("../images/balloons/balloon2.png");
+}
+
+#two .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:0px;
+	left:0px;
+}
+
+
+
+#three{
+	top: 175px;
+  	left: 70%;
+	transform: translate(-50%, 0);
+	z-index: 10;
+}
+
+#three .balloon-image{
+	background-image: url("../images/balloons/balloon3.png");
+}
+
+#three .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:100px;
+}
+
+#three .text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 75px;
+	margin-left: 25px;
+	width: 200px;
+	height: 200px;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 900;
+	font-size: 48px;
+	text-align: center;
+	font-style: italic;
+	/*background-color: blue;*/
+}
+
+#four{
+	top: 50px;
+  	left: 85%;
+	transform: translate(-50%, 0);
+	z-index: 9;
+}
+
+#four .balloon-image{
+	background-image: url("../images/balloons/balloon4.png");
+}
+
+
+#five{
+	top: 380px;
+  	left: 0%;
+	transform: translate(-50%, 0);
+}
+
+#five .balloon-image{
+	background-image: url("../images/balloons/balloon5.png");
+}
+
+#six{
+	top: 500px;
+ 	left: 20%;
+	transform: translate(-50%, 0);
+}
+
+#six .balloon-image{
+	background-image: url("../images/balloons/balloon6.png");
+}
+
+#seven{
+	top: 700px;
+  	left: 35%;
+	transform: translate(-50%, 0);
+}
+
+#seven .balloon-image{
+	background-image: url("../images/balloons/balloon7.png");
+}
+
+#seven .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:100px;
+}
+
+#seven .textseven{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 55px;
+	margin-left: 25px;
+	width: 200px;
+	height: 200px;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+#eight{
+	top: 850px;
+  	left: -5%;
+	transform: translate(-50%, 0);
+}
+
+#eight .balloon-image{
+	background-image: url("../images/balloons/balloon8.png");
+}
+
+#nine{
+	top: 800px;
+  	left: 60%;
+	transform: translate(-50%, 0);
+}
+
+#nine .balloon-image{
+	background-image: url("../images/balloons/balloon9.png");
+}
+
+#ten{
+	top: 450px;
+  	left: 80%;
+	transform: translate(-50%, 0);
+}
+
+#ten .balloon-image{
+	background-image: url("../images/balloons/balloon10.png");
+}
+
+#eleven{
+	top: 650px;
+  	left: 85%;
+	transform: translate(-50%, 0);
+}
+
+#eleven .balloon-image{
+	background-image: url("../images/balloons/balloon11.png");
+}
+
+#eleven .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:0px;
+}
+
+#eleven .texteleven{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 80px;
+	margin-left: 25px;
+	width: 200px;
+	height: 200px;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+#twelve{
+	top: 1150px;
+  	left: 35%;
+	transform: translate(-50%, 0);
+}
+
+#twelve .balloon-image{
+	background-image: url("../images/balloons/balloon12.png");
+}
+
+#twelve .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:0px;
+}
+
+#twelve .texttwelve{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 95px;
+	margin-left: 25px;
+	width: 200px;
+	height: 200px;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+#thirteen{
+	top: 1300px;
+  	left: 75%;
+	transform: translate(-50%, 0);
+}
+
+#thirteen .balloon-image{
+	background-image: url("../images/balloons/balloon13.png");
+}
+
+#fourteen{
+	top: 1600px;
+  	left: 85%;
+	transform: translate(-50%, 0);
+}
+
+#fourteen .balloon-image{
+	background-image: url("../images/balloons/balloon14.png");
+}
+
+#fifteen{
+	top: 2000px;
+  	left: 65%;
+	transform: translate(-50%, 0);
+}
+
+#fifteen .balloon-image{
+	background-image: url("../images/balloons/balloon15.png");
+}
+
+#fifteen .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:0px;
+}
+
+#fifteen .textfifteen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 50px;
+	margin-left: 25px;
+	width: 200px;
+	height: 200px;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+#sixteen{
+	top: 2400px;
+  	left: 5%;
+	transform: translate(-50%, 0);
+}
+
+#sixteen .balloon-image{
+	background-image: url("../images/balloons/balloon16.png");
+}
+
+#seventeen{
+	top: 2900px;
+  	left: 65%;
+	transform: translate(-50%, 0);
+}
+
+#seventeen .balloon-image{
+	background-image: url("../images/balloons/balloon17.png");
+}
+
+#eighteen{
+	top: 3500px;
+  	left: 80%;
+	transform: translate(-50%, 0);
+}
+
+#eighteen .balloon-image{
+	background-image: url("../images/balloons/balloon18.png");
+}
+
+#nineteen{
+	top: 4000px;
+  	left: 10%;
+	transform: translate(-50%, 0);
+}
+
+#nineteen .balloon-image{
+	background-image: url("../images/balloons/balloon19.png");
+}
+
+#nineteen .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:0px;
+}
+
+#nineteen .textnineteen{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 70px;
+	margin-left: 25px;
+	width: 200px;
+	height: 200px;
+	font-family: 'Arial Narrow', arial, sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+#twenty{
+	top: 6000px;
+  	left: 40%;
+	transform: translate(-50%, 0);
+}
+
+#twenty .balloon-image{
+	background-image: url("../images/balloons/balloon20.png");
+}
+
+#twenty .balloon-info {
+	background-image: url("../images/info-bubble.png");
+	bottom:100px;
+}
+
+
+
+
+
+
+/*----RESPONSIVE--------------------------------------------------------------------------------------------------------*/
+
+/*1024 1024 1024 1024 1024 1024 1024 1024 1024 1024 1024 1024 1024 1024 1024 */
+@media screen and (max-width: 1024px) {
+  body.container { background: cyan; width: 1024px;} 
+}
+
+
+/*768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 768 */
+@media screen and (max-width: 768px) {
+  body { background: #e3ffff; }
+  body.container { background: magenta; width: 768px;}
+
+
+}
+
+
+/*600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 */
+@media screen and (max-width: 600px) {
+  body.container { background: blue; width: 600px;}
+  
+}
+
+
+/*480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 480 */
+@media screen and (max-width: 480px) {
+  body.container { background: yellow; width: 480px;}
+}
+
+
+/*320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 320 */
+@media screen and (max-width: 320px) {
+  body.container { background: pink; width: 320px;}
+  
+  #one .balloon-info{left: 0px; top: 0px;}
+  #two .balloon-info{left: 0px; bottom: 0px;}
+  #three .balloon-info{left: 0px; bottom: 0px;}
+  #four .balloon-info{left: 0px; bottom: 0px;}
+  #five .balloon-info{left: 0px; bottom: 0px;}
+  #six .balloon-info{left: 0px; bottom: 0px;}
+  #seven .balloon-info{left: 0px; bottom: 0px;}
+
+
+
+  #one {
+    width: 200px; 
+    position: absolute;
+    top: 0px;
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+
+  #two {
+    width: 200px; 
+    position: absolute;
+    top: 250px;
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+
+  #three {
+    width: 200px; 
+    position: absolute;
+    top: 500px;
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+
+  #four {
+    width: 200px; 
+    position: absolute;
+    top: 750px;
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+
+  #five {
+    width: 200px; 
+    position: absolute;
+    top: 1000px;
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+
+  #six {
+    width: 200px; 
+    position: absolute;
+    top: 1250px;
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+
+  #seven {
+    width: 200px; 
+    position: absolute;
+    top: 1500px;
+    left: 50%; 
+    transform: translate(-50%, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----BACKGROUND IMAGE--------------------------------------------------------------------------------------------------------*/
+/*#background-container{
+	width: 100%;
+	height: 4800px;
+	background-image: url("../images/cloudwingscape2.png");
+	background-position: 0px;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	-webkit-animation: myanim 10s infinite linear;
+	-moz-animation: myanim 10s infinite linear;
+	-o-animation: myanim 10s infinite linear;
+	animation: myanim 10s infinite linear;
+}*/
+
+@-webkit-keyframes myanim {
+	0%   { background-position: 0px; } /* add 5px to the right to have it move vertically */
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+@-moz-keyframes myanim {
+	0%   { background-position: 0px; }
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+@-o-keyframes myanim {
+	0%   { background-position: 0px; }
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+@keyframes myanim {
+	0%   { background-position: 0px; }
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+
+
+
+

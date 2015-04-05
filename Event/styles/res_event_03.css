@@ -100,7 +100,7 @@ body { background: #e3ffff; }
   /*background-color: pink; */
   position: absolute;
   top: 800px;
-  left: 60%%;
+  left: 60%;
   transform: translate(-50%, 0);
 }
 
