@@ -5,7 +5,7 @@ html{
 }
 
 .container {
-	/*background: white;*/
+	background: #e3ffff;
 }
 
 .balloon{
@@ -40,6 +40,7 @@ html{
 	height: 250px;
 	opacity: 0;
 	position: absolute;
+	margin: 0;
 	left: 0px;
 	background-image: url("../images/info-bubble.png");
 	z-index: 200;
@@ -64,7 +65,7 @@ html{
 	filter: url(shadow.svg#drop-shadow);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12,
 		Color='#444')";
-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
 .balloon-image:hover{
@@ -108,14 +109,14 @@ filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#
 /*#background-container{
 	width: 100%;
 	height: 4800px;
-	background-image: url("../images/chickenwings1.png");
+	background-image: url("../images/cloudwingscape2.png");
 	background-position: 0px;
 	background-repeat: repeat-x;
 	background-repeat: repeat-y;
-	-webkit-animation: myanim 20s infinite linear;
-	-moz-animation: myanim 20s infinite linear;
-	-o-animation: myanim 20s infinite linear;
-	animation: myanim 20s infinite linear;
+	-webkit-animation: myanim 10s infinite linear;
+	-moz-animation: myanim 10s infinite linear;
+	-o-animation: myanim 10s infinite linear;
+	animation: myanim 10s infinite linear;
 }*/
 
 @-webkit-keyframes myanim {
