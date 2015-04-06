@@ -18,7 +18,7 @@
     position: absolute;
     left:0;
     top:0;
-    background-image: url("../images/palepinkballoon-small.png");
+    background-image: url("../images/palepinkballoon-big.png");
 }
 
 .balloon-2 {
@@ -27,9 +27,9 @@
     height: 250px;
     background: transparent;
     position: absolute;
-    left:200px;
+    left:150px;
     top:200px;
-    background-image: url("../images/palepinkballoon-small.png");
+    background-image: url("../images/palepinkballoon-big.png");
 }
 
 .balloon-3 {
@@ -38,9 +38,9 @@
     height: 250px;
     background: transparent;
     position: absolute;
-    left:450px;
+    left:300px;
     top:500px;
-    background-image: url("../images/palepinkballoon-small.png");
+    background-image: url("../images/palepinkballoon-big.png");
 }
 
 .balloon-4 {
@@ -49,9 +49,9 @@
     height: 250px;
     background: transparent;
     position: absolute;
-    left:700px;
+    left:450px;
     top:100px;
-    background-image: url("../images/palepinkballoon-small.png");
+    background-image: url("../images/palepinkballoon-big.png");
 }
 
 .balloon-5 {
@@ -60,9 +60,42 @@
     height: 250px;
     background: transparent;
     position: absolute;
-    left:950px;
-    top:0;
-    background-image: url("../images/palepinkballoon-small.png");
+    left:600px;
+    top:600px;
+    background-image: url("../images/palepinkballoon-big.png");
+}
+
+.balloon-6 {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:700px;
+    top:20px;
+    background-image: url("../images/palepinkballoon-big.png");
+}
+
+.balloon-7 {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:1000px;
+    top:600px;
+    background-image: url("../images/palepinkballoon-big.png");
+}
+
+.balloon-8 {
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    position: absolute;
+    left:1200px;
+    top:0px;
+    background-image: url("../images/palepinkballoon-big.png");
 }
 
 .bodycontainer {
@@ -84,6 +117,7 @@
   line-height: 60px;
   font-family: 'arial narrow', arial, helvetica, sans-serif;
   font-weight: bold;
+  margin-top: 15px;
 }
 
 em{
