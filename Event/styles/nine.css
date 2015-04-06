@@ -108,14 +108,15 @@ body.container {
 /*----BALLOON PLACEMENT-------------------------BALLOON PLACEMENT---------------------------------------BALLOON PLACEMENT----------------------------------------*/
 
 #one{
-	top: 10px;
-  	left: 25%;
+	top: 4000px;
+  	left: 20%;
 	transform: translate(-50%, 0);
 	z-index: 25;
 }
 
 #one .balloon-image{
-	background-image: url("../images/balloons/balloon1.png");
+	/*background-image: url("../images/balloons/balloon1.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #one .balloon-info {
@@ -129,26 +130,19 @@ body.container {
 }*/
 
 #two{
-	top: 280px;
-  	left: 40%;
+	top: 700px;
+  	left: 35%;
 	transform: translate(-50%, 0);
 	z-index: 24;
 }
 
 #two .balloon-image{
-	background-image: url("../images/balloons/balloon2.png");
+	/*background-image: url("../images/balloons/balloon2.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #two .balloon-info {
-	background-image: url("../images/info-bubble.png");
-	bottom:0px;
-	left:0px;
-}
-
-#two:hover{
-	width: 400px;
-	height: 250px;
-	margin-left: -100px;
+	bottom:100px;
 }
 
 
@@ -160,11 +154,12 @@ body.container {
 }
 
 #three .balloon-image{
-	background-image: url("../images/balloons/balloon3.png");
+	/*background-image: url("../images/balloons/balloon3.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #three .balloon-info {
-	background-image: url("../images/info-bubble.png");
+	background-image: url("../images/info-bubble2.png");
 	bottom:100px;
 	left: -175px;
 }
@@ -174,7 +169,7 @@ body.container {
 	top: 0;
 	left: 0;
 	margin-top: 75px;
-	margin-left: 25px;
+	margin-left: 22px;
 	width: 200px;
 	height: 200px;
 	font-family: 'Arial Narrow', arial, sans-serif;
@@ -193,7 +188,8 @@ body.container {
 }
 
 #four .balloon-image{
-	background-image: url("../images/balloons/balloon4.png");
+	/*background-image: url("../images/balloons/balloon4.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 
@@ -204,7 +200,8 @@ body.container {
 }
 
 #five .balloon-image{
-	background-image: url("../images/balloons/balloon5.png");
+	/*background-image: url("../images/balloons/balloon5.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #six{
@@ -214,22 +211,25 @@ body.container {
 }
 
 #six .balloon-image{
-	background-image: url("../images/balloons/balloon6.png");
+	/*background-image: url("../images/balloons/balloon6.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #seven{
-	top: 700px;
-  	left: 35%;
+	top: 280px;
+  	left: 40%;
 	transform: translate(-50%, 0);
 }
 
 #seven .balloon-image{
-	background-image: url("../images/balloons/balloon7.png");
+	/*background-image: url("../images/balloons/balloon7.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #seven .balloon-info {
 	background-image: url("../images/info-bubble.png");
-	bottom:100px;
+	top:50px;
+	left: 50px;
 }
 
 #seven .textseven{
@@ -247,6 +247,12 @@ body.container {
 	/*background-color: blue;*/
 }
 
+/*#seven:hover{
+	width: 400px;
+	height: 250px;
+	margin-left: -100px;
+}*/
+
 #eight{
 	top: 850px;
   	left: -5%;
@@ -254,7 +260,8 @@ body.container {
 }
 
 #eight .balloon-image{
-	background-image: url("../images/balloons/balloon8.png");
+	/*background-image: url("../images/balloons/balloon8.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #nine{
@@ -264,7 +271,8 @@ body.container {
 }
 
 #nine .balloon-image{
-	background-image: url("../images/balloons/balloon9.png");
+	/*background-image: url("../images/balloons/balloon9.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #ten{
@@ -274,7 +282,8 @@ body.container {
 }
 
 #ten .balloon-image{
-	background-image: url("../images/balloons/balloon10.png");
+	/*background-image: url("../images/balloons/balloon10.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #eleven{
@@ -284,12 +293,14 @@ body.container {
 }
 
 #eleven .balloon-image{
-	background-image: url("../images/balloons/balloon11.png");
+	/*background-image: url("../images/balloons/balloon11.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #eleven .balloon-info {
 	background-image: url("../images/info-bubble.png");
 	bottom:0px;
+	left: -175px;
 }
 
 #eleven .texteleven{
@@ -308,13 +319,14 @@ body.container {
 }
 
 #twelve{
-	top: 1150px;
-  	left: 35%;
+	top: 2000px;
+  	left: 65%;
 	transform: translate(-50%, 0);
 }
 
 #twelve .balloon-image{
-	background-image: url("../images/balloons/balloon12.png");
+	/*background-image: url("../images/balloons/balloon12.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #twelve .balloon-info {
@@ -344,7 +356,8 @@ body.container {
 }
 
 #thirteen .balloon-image{
-	background-image: url("../images/balloons/balloon13.png");
+	/*background-image: url("../images/balloons/balloon13.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #fourteen{
@@ -354,17 +367,19 @@ body.container {
 }
 
 #fourteen .balloon-image{
-	background-image: url("../images/balloons/balloon14.png");
+	/*background-image: url("../images/balloons/balloon14.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #fifteen{
-	top: 2000px;
-  	left: 65%;
+	top: 1150px;
+  	left: 35%;
 	transform: translate(-50%, 0);
 }
 
 #fifteen .balloon-image{
-	background-image: url("../images/balloons/balloon15.png");
+	/*background-image: url("../images/balloons/balloon15.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #fifteen .balloon-info {
@@ -388,13 +403,14 @@ body.container {
 }
 
 #sixteen{
-	top: 2400px;
-  	left: 5%;
+	top: 10px;
+  	left: 25%;
 	transform: translate(-50%, 0);
 }
 
 #sixteen .balloon-image{
-	background-image: url("../images/balloons/balloon16.png");
+	/*background-image: url("../images/balloons/balloon16.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #seventeen{
@@ -404,7 +420,8 @@ body.container {
 }
 
 #seventeen .balloon-image{
-	background-image: url("../images/balloons/balloon17.png");
+	/*background-image: url("../images/balloons/balloon17.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #eighteen{
@@ -414,17 +431,19 @@ body.container {
 }
 
 #eighteen .balloon-image{
-	background-image: url("../images/balloons/balloon18.png");
+	/*background-image: url("../images/balloons/balloon18.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #nineteen{
-	top: 4000px;
-  	left: 10%;
+	top: 2400px;
+  	left: 5%;
 	transform: translate(-50%, 0);
 }
 
 #nineteen .balloon-image{
-	background-image: url("../images/balloons/balloon19.png");
+	/*background-image: url("../images/balloons/balloon19.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #nineteen .balloon-info {
@@ -454,7 +473,8 @@ body.container {
 }
 
 #twenty .balloon-image{
-	background-image: url("../images/balloons/balloon20.png");
+	/*background-image: url("../images/balloons/balloon20.png");*/
+	background-image: url("../images/palepinkballoon-big.png");
 }
 
 #twenty .balloon-info {
@@ -514,40 +534,61 @@ body.container {
   #one {
     width: 200px; 
     position: absolute;
-    top: 0px;
-    left: 50%; 
+    top: 4500px;
+    left: 75%; 
     transform: translate(-50%, 0);
+  }
+
+  #one .balloon-info{
+   	top: -25px;
+    left: -75px; 
   }
 
   #two {
     width: 200px; 
     position: absolute;
     top: 250px;
-    left: 50%; 
+    left: 75%;  
     transform: translate(-50%, 0);
+  }
+
+  #two .balloon-info{
+    top: -25px;
+    left: -75px; 
   }
 
   #three {
     width: 200px; 
     position: absolute;
-    top: 500px;
-    left: 50%; 
+    top: 000px;
+    left: 75%;  
     transform: translate(-50%, 0);
+  }
+
+  #three .balloon-info{
+    top: -25px;
+    left: -75px; 
+    z-index: 9999;
   }
 
   #four {
     width: 200px; 
     position: absolute;
     top: 750px;
-    left: 50%; 
+    left: 75%;  
     transform: translate(-50%, 0);
+  }
+
+  #four .balloon-info{
+    top: -25px;
+    left: -75px; 
   }
 
   #five {
     width: 200px; 
     position: absolute;
     top: 1000px;
-    left: 50%; 
+    left: 75%;  
     transform: translate(-50%, 0);
   }
 
@@ -555,17 +596,152 @@ body.container {
     width: 200px; 
     position: absolute;
     top: 1250px;
-    left: 50%; 
+    left: 75%;  
     transform: translate(-50%, 0);
   }
 
   #seven {
     width: 200px; 
     position: absolute;
-    top: 1500px;
-    left: 50%; 
+    top: 500px;
+    left: 75%;  
     transform: translate(-50%, 0);
   }
+
+ #seven .balloon-info{
+    top: -25px;
+    left: -75px; 
+  }
+
+  #eight {
+    width: 200px; 
+    position: absolute;
+    top: 1750px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #nine {
+    width: 200px; 
+    position: absolute;
+    top: 2000px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #ten {
+    width: 200px; 
+    position: absolute;
+    top: 2250px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #eleven {
+    width: 200px; 
+    position: absolute;
+    top: 1500px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #eleven .balloon-info{
+    top: -25px;
+    left: -75px; 
+  }
+
+  #twelve {
+    width: 200px; 
+    position: absolute;
+    top: 2750px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+ #twelve .balloon-info{
+    top: -25px;
+    left: -75px; 
+  }
+
+  #thirteen {
+    width: 200px; 
+    position: absolute;
+    top: 3000px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #fourteen {
+    width: 200px; 
+    position: absolute;
+    top: 3250px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #fifteen {
+    width: 200px; 
+    position: absolute;
+    top: 3500px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+ #fifteen .balloon-info{
+    top: -25px;
+    left: -75px; 
+  }
+
+  #sixteen {
+    width: 200px; 
+    position: absolute;
+    top: 3750px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #seventeen {
+    width: 200px; 
+    position: absolute;
+    top: 2500px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #eighteen {
+    width: 200px; 
+    position: absolute;
+    top: 4250px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+  #nineteen {
+    width: 200px; 
+    position: absolute;
+    top: 4000px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+ #nineteen .balloon-info{
+    top: -25px;
+    left: -75px; 
+  }
+
+  #twenty {
+    width: 200px; 
+    position: absolute;
+    top: 4750px;
+    left: 75%;  
+    transform: translate(-50%, 0);
+  }
+
+ #twenty .balloon-info{
+    top: -25px;
+    left: -75px; 
+  }
+
 }
 
 
@@ -581,12 +757,45 @@ body.container {
 
 
 /*----BACKGROUND IMAGE--------------------------------------------------------------------------------------------------------*/
+#cloud-container{
+	width: 120%;
+	height: 100%;
+	position: fixed;
+	background-image: url("../images/clouds2.png");
+	left: -200px;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	-webkit-animation: myanim 3s infinite linear;
+	-moz-animation: myanim 3s infinite linear;
+	-o-animation: myanim 3s infinite linear;
+	animation: myanim 3s infinite linear;
+	z-index: -100;
+}
+
+@-webkit-keyframes myanim {
+	0%   { background-position: 0px; } /* add 5px to the right to have it move vertically */
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+@-moz-keyframes myanim {
+	0%   { background-position: 0px; }
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+@-o-keyframes myanim {
+	0%   { background-position: 0px; }
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+@keyframes myanim {
+	0%   { background-position: 0px; }
+	100% { background-position: 100px; } /* set this to the width of the image */
+}
+
+
+
 #background-container{
 	width: 120%;
 	height: 100%;
 	position: fixed;
 	background-image: url("../images/cloudwingscape2.png");
-	/*background-position: 0px;*/
 	left: -200px;
 	background-repeat: repeat-x;
 	background-repeat: repeat-y;
@@ -594,6 +803,7 @@ body.container {
 	-moz-animation: myanim 10s infinite linear;
 	-o-animation: myanim 10s infinite linear;
 	animation: myanim 10s infinite linear;
+	z-index: -200;
 }
 
 @-webkit-keyframes myanim {
